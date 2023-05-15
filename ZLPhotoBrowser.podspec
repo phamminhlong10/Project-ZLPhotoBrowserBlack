@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'ZLPhotoBrowser'
-  s.version               = '4.2.5'
+  s.version               = '1.0.0'
   s.summary               = 'A lightweight and pure Swift implemented library for select photos from album'
 
   s.description           = <<-DESC
@@ -11,13 +11,13 @@ Pod::Spec.new do |s|
                               更多自定义功能请查看 ZLPhotoConfiguration 定义
                               DESC
 
-  s.homepage              = 'https://github.com/longitachi/ZLPhotoBrowser'
+  s.homepage              = 'https://github.com/phamminhlong10/ZLPhotoBrowser'
   s.license               = { :type => "MIT", :file => "LICENSE" }
 
-  s.author                = {'longitachi' => 'longitachi@163.com'}
-  s.social_media_url      = "https://github.com/longitachi"
+  s.author                = {'phamminhlong' => 'phamminhlong10@outlook.com'}
+  s.social_media_url      = "https://github.com/phamminhlong10"
 
-  s.source                = {:git => 'https://github.com/longitachi/ZLPhotoBrowser.git', :tag => s.version}
+  s.source                = {:git => 'https://github.com/phamminhlong10/ZLPhotoBrowser.git', :tag => s.version}
 
   s.ios.deployment_target = '10.0'
 
